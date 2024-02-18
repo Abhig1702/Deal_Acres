@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Property Ad</title>
+    <link rel="stylesheet" href="page15.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+<table class="table2">
+    <tr>
+     <td>
+    <header>
+        <div class="logo">
+            <img src="https://th.bing.com/th?id=OIP.72R2LK7T68R_jZafFV5EkwHaHZ&w=250&h=249&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" height="50px" width="50px" alt="Logo"></div>
+        <div class="icons">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+        </div>
+    </header>
+    <section>
+    <form>
+        <table>
+            <tr>
+            <td>
+                <div class="table1">
+                <h3> Now, tell us about your property</h3> 
+                <h4> Describe Your Property</h4>
+                <div class="text1">
+                    Write Several Thing which can describe<br> your property appropriately.
+                    <div class="property-box" onclick="selectProperty('empty-box')" id="ebox">
+
+                    </div>
+                </div>
+                <h4>Add Room Details</h4><br>
+                    <div class="rating-container">
+                        <div class="circle filled">1</div>
+                        <div class="circle filled">2</div>
+                        <div class="circle">3</div>
+                        <div class="circle">4</div>
+                        <div class="circle">5</div>
+                      </div>
+                <h4>Number of Bathrooms</h4><br>
+                    <div class="rating-container">
+                        <div class="circle filled">1</div>
+                        <div class="circle filled">2</div>
+                        <div class="circle">3</div>
+                        <div class="circle">4</div>
+                        <div class="circle">5</div>
+                      </div>
+                <h4>Number of Balconies</h4><br>
+                <div class="rating-container">
+                    <div class="circle filled">1</div>
+                    <div class="circle filled">2</div>
+                    <div class="circle">3</div>
+                    <div class="circle">4</div>
+                    <div class="circle">5</div>
+                  </div>
+                
+                <div class="table-box">
+                    <h4>Other rooms</h4><br>
+                    <div class="property-box" onclick="selectProperty('Pooja Room')" id="poojaBox">
+                        Pooja Room
+                    </div>
+                    <div class="property-box" onclick="selectProperty('Study Room')" id="studyBox">
+                        Study Room
+                    </div>
+                    <div class="property-box" onclick="selectProperty('Servant Room')" id="servantBox">
+                        Servant Room
+                    </div>
+                    <div class="property-box" onclick="selectProperty('Store Room')" id="storeBox">
+                        Store Room
+                    </div>
+                </div>
+                <h4>Furnished</h4>
+                <div class="furnish">
+                    <div class="property-box" onclick="selectProperty('fully-furnished')" id="fullyf">
+                        Fully Furnished
+                    </div>
+                    <div class="property-box" onclick="selectProperty('unfurnished')" id="unfur">
+                        Unfurnished
+                    </div>
+                </div>
+                <h4>Reserve Parking(Optional)</h4>
+                <div class="rating-container">
+                    <span>Covered Parking</span>
+                    <div class="circle filled1">1</div>
+                    <div class="circle filled2">2</div>
+                </div>
+                <div class="rating-container">
+                    <span>Open Parking</span>
+                    <div class="circle filled1">1</div>
+                    <div class="circle filled2">2</div>
+                </div>
+                
+                <div class="floor">
+                    Total no. of floors<br>
+                    <div class="property-box" onclick="selectProperty('total-floors')" id="totfloor">
+                        Total Floors
+                    </div>
+                    <div class="property-box" onclick="selectProperty('prop')" id="propfloor">
+                        Property on Floor
+                    </div>
+                </div>
+                <h4>Availability Status</h4><br>
+                <div class="furnish">
+                    <div class="property-box"  onclick="selectProperty('readytomove')" id="move">
+                       Ready To Move
+                    </div>
+                    <div class="property-box"  onclick="selectProperty('underContsruction')" id="move">
+                        Under-Construction
+                    </div>
+                </div>
+                <h4>Age of Property</h4>
+                <div class="age">
+                    <div class="property-box"  onclick="selectProperty('0-1_Year')" id="year">
+                        0-1 Years
+                    </div>
+                    <div class="property-box"  onclick="selectProperty('1-5_Year')" id="year">
+                        1-5 Years
+                    </div>
+                    <div class="property-box"  onclick="selectProperty('5-10_Year')" id="year">
+                        5-10 Years
+                    </div>
+                    <div class="property-box"  onclick="selectProperty('10+Year')" id="year">
+                        10+ Years
+                    </div>
+                </div>
+                <button type="submit">Continue</button>
+            </div>
+        </td>
+</form>
+</section>
+        <td>
+            <div class="nav0">
+            <nav>
+                Describe your property in brief<br>
+                so the buyer or renter can easily<br>
+                get to know how your property is<br>
+                what makes your property<br>
+                different from others.
+             <div class="image">  
+            <img src="https://webstockreview.net/images/cartoon-house-png-9.png" height="150px" width="200px"></div> 
+            <b> Need Help?</b><br>
+            You Can Email Us <br>
+            <a href="#" >Contact@dealacres.com</a>
+            </nav>
+        </div>
+            <div class="nav2">
+            <nav> 
+                <div class="smiley">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/1024px-Smiley.svg.png" alt="" width="100px" height="100px">
+            </div>
+            <br>
+            <h2>You are Almost There</h2>
+        </div>
+        </td>
+  </tr>
+</table>
+<article>
+</article>
+
+   
+</body>
+</html>

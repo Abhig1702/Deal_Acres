@@ -1,0 +1,225 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1861d6;
+    color: aliceblue;
+    padding: 5px;
+    height: 70px;
+    width:1200px;
+}
+
+.icons i {
+    margin: 0 4px;
+    margin-right: 150px;
+    cursor: pointer;
+    font-size: 50px;
+    transition: 0.3s;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 20px;
+    margin-left:20px;
+    
+}
+nav{
+    float: left;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin-right: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #d9e2eb;
+    border-radius : 15px;
+}
+.property-box {
+    border: 4px solid #8d9fba; /* Updated color */
+    width: auto;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 10px;
+}
+.property-box1 {
+    border: 3px solid #8d9fba; /* Updated color */
+    width: auto;
+    font-size: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-right: 10px;
+   
+}
+.property-box1:hover {
+    border-color: rgba(3, 99, 244, 0.5);
+    box-shadow: 0 0 10px rgba(19, 110, 247, 0.7);
+}
+.residential-container1 {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+table{
+    margin: 50px;
+    margin-top: 70px;
+    margin-left: 150px;
+    height:auto;
+    width: auto;
+
+}
+.a1{
+    text-align: center;
+    margin-left: 5px;
+}
+button{
+    align-items: center;
+    background-color: #1861d6;
+    color: white;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+button:hover {
+    cursor: pointer;
+    border-color: rgba(3, 99, 244, 0.5);
+    box-shadow: 0 0 10px rgba(19, 110, 247, 0.7);
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.table-content {
+    margin-left: 580px;
+    margin-top: 90px;
+    width: 300px;
+    font-family: Bodoni MT;
+    border: 2px solid rgba(136, 147, 203, 0.897); /* Border for the box */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    background-color: #f9f9f9; /* Background color */
+    box-shadow: 0 0 10px rgba(136, 147, 203, 0.897); /* Box shadow for a 3D effect */
+}  
+nav{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: -500px;
+    
+}
+
+.form1 {
+    margin: 0px;
+    margin-left: 40px;
+    width: 260px;
+    height: 350px;
+    background-color: #edf1f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(60, 74, 225, 0.473);
+    border-radius: 15px;
+  }
+
+  .enter{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .title {
+     margin-left: -3px;
+     margin-bottom: -20px;
+  }
+
+  .text {
+    font-size: 18px;
+    margin-top: 0px;
+    color: black;
+    text-align: left;
+  }
+  .text1 {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    color: black;
+    text-align: left;
+  }
+
+  .inputContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+  }
+
+  .inputContainer input {
+    flex: 1;
+    background: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 7px;
+    caret-color: blue;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px black;
+  }
+
+  .verify {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #3033da;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: -2px;
+  }
+  a{
+      margin-left: 0px;
+      margin-top: 10px;
+      text-decoration: none;
+
+  }
+  .mail{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #5d97ed;
+    margin-left: -4px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+  }
+   .verify:hover {
+  cursor: pointer;
+  border-color: rgba(3, 99, 244, 0.5);
+  box-shadow: 0 0 10px rgba(19, 110, 247, 0.7);
+}
+.mail:hover{
+    cursor: pointer;
+    border-color: rgba(3, 99, 244, 0.5);
+    box-shadow: 0 0 10px rgba(19, 110, 247, 0.7); 
+}
